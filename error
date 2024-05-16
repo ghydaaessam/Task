@@ -1,0 +1,3 @@
+ fatal error: linux/init.h: No such file or directory
+    1 | #include <linux/init.h>
+      |          ^~~~~~~~~~~~~~
