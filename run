@@ -1,5 +1,6 @@
 sudo ln -s /usr/src/linux-headers-$(uname -r)/include/generated/uapi/linux/version.h /usr/include/linux/version.h
 sudo ln -s /usr/src/linux-headers-$(uname -r)/arch/x86/include/generated/ /usr/include/linux/
 
+sudo apt install --reinstall linux-headers-$(uname -r)
 
 ls /lib/modules/$(uname -r)/build/include/linux/init.h
