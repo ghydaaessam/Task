@@ -50,3 +50,9 @@ module_exit(proc_exit);
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Hello Module");
 MODULE_AUTHOR("SGG");
+
+
+
+sudo apt install linux-headers-$(uname -r)
+
+	
